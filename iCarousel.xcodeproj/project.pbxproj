@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		821507391E5746F000C75711 /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 821507371E5746F000C75711 /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8215073A1E5746F000C75711 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 821507381E5746F000C75711 /* iCarousel.m */; };
+		F0C52CD6299F5F0400A5BA1D /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C52CD4299F5F0400A5BA1D /* iCarousel.m */; };
+		F0C52CD7299F5F0400A5BA1D /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C52CD5299F5F0400A5BA1D /* iCarousel.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8215072B1E57468200C75711 /* iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8215072F1E57468200C75711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		821507371E5746F000C75711 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
-		821507381E5746F000C75711 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		821507421E57475B00C75711 /* iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C52CD4299F5F0400A5BA1D /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		F0C52CD5299F5F0400A5BA1D /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +39,7 @@
 		821507211E57468200C75711 = {
 			isa = PBXGroup;
 			children = (
-				8215072D1E57468200C75711 /* iCarousel */,
+				F0C52CD2299F5F0400A5BA1D /* Sources */,
 				8215072C1E57468200C75711 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,22 +53,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8215072D1E57468200C75711 /* iCarousel */ = {
+		F0C52CD2299F5F0400A5BA1D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				821507371E5746F000C75711 /* iCarousel.h */,
-				821507381E5746F000C75711 /* iCarousel.m */,
-				8215073B1E5746F400C75711 /* Supporting Files */,
+				F0C52CD3299F5F0400A5BA1D /* iCarousel */,
 			);
-			path = iCarousel;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		8215073B1E5746F400C75711 /* Supporting Files */ = {
+		F0C52CD3299F5F0400A5BA1D /* iCarousel */ = {
 			isa = PBXGroup;
 			children = (
-				8215072F1E57468200C75711 /* Info.plist */,
+				F0C52CD4299F5F0400A5BA1D /* iCarousel.m */,
+				F0C52CD5299F5F0400A5BA1D /* iCarousel.h */,
 			);
-			name = "Supporting Files";
+			path = iCarousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,7 +77,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				821507391E5746F000C75711 /* iCarousel.h in Headers */,
+				F0C52CD7299F5F0400A5BA1D /* iCarousel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +151,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 821507211E57468200C75711;
@@ -188,7 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8215073A1E5746F000C75711 /* iCarousel.m in Sources */,
+				F0C52CD6299F5F0400A5BA1D /* iCarousel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +403,7 @@
 				821507491E57475B00C75711 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
