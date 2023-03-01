@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F0C52CD6299F5F0400A5BA1D /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C52CD4299F5F0400A5BA1D /* iCarousel.m */; };
-		F0C52CD7299F5F0400A5BA1D /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C52CD5299F5F0400A5BA1D /* iCarousel.h */; };
+		F0C52CD7299F5F0400A5BA1D /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C52CD5299F5F0400A5BA1D /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
